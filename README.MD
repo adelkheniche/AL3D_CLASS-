@@ -1,4 +1,4 @@
-# Awesome List impression 3D
+# Awesome Onshape & impression 3D
 
 Une liste de ressources pour découvrir la fabrication additive, prendre des mesures et modéliser le boîtier d’un VU-mètre avec Onshape.
 
@@ -18,17 +18,14 @@ Une liste de ressources pour découvrir la fabrication additive, prendre des mes
 * **Fabrication soustractive ou additive** — [Procédés soustractifs](https://medium.com/cnc-life/history-of-cnc-machining-part-1-2a4b290d994d) · [Histoire de l’impression 3D — V&A](https://www.vam.ac.uk/articles/at-the-press-of-a-button-a-va-history-of-3d-printing)  
   *L’usinage retire de la matière, l’impression 3D la dépose ou la solidifie. Le bon procédé dépend de la forme, du matériau, du délai et du nombre de pièces.*
 
-* **Des objets difficiles à fabriquer autrement** — [Montre en bois](http://www.laimer.ch) · [OpenFlexure Delta Stage](https://openflexure.org/projects/deltastage/) · [Pico V2](https://fab.cba.mit.edu/classes/865.21/people/rahul/PicoV2/)  
-  *Ces exemples montrent l’intérêt du procédé : intégrer des fonctions, fabriquer des formes complexes et itérer rapidement sans outillage spécifique.*
-
-* **Complexité, accès, forme finale et déchets** — [Cours source du MIT](https://academy.cba.mit.edu/classes/scanning_printing/index.html)  
-  *La complexité géométrique coûte souvent moins cher qu’avec un procédé traditionnel, mais le temps machine reste important. Une pièce imprimée doit être pensée pour ce procédé.*
+* **Des objets difficiles à fabriquer autrement** — [Montre 3D printed](http://www.laimer.ch) · [OpenFlexure Delta Stage](https://openflexure.org/projects/deltastage/) · [Pico V2](https://fab.cba.mit.edu/classes/865.21/people/rahul/PicoV2/)  
+  *faire du complexe: intégrer des fonctions, fabriquer des formes complexes et itérer rapidement sans outillage spécifique.*
 
 * **Contraintes et échecs** — [3DBenchy : les points à observer](https://www.3dbenchy.com/features/) · [Exemple d’échec](https://academy.cba.mit.edu/classes/scanning_printing/fail.jpg)  
-  *Une impression ratée est un diagnostic : température, adhérence, orientation, matière ou géométrie. Le Benchy apprend à lire ces défauts.*
+  *comprendre pourquoi : température, adhérence, orientation, matière ou géométrie. Le Benchy apprend à lire les défauts.*
 
 * **Résolution, temps et coût** — [Speed Benchy : règles et réglages](https://stldenise3d.com/speed-benchy-settings-and-rules/)  
-  *Plus fin n’est pas toujours mieux : une petite hauteur de couche augmente fortement le temps. Pour un prototype, on cherche une précision suffisante et un délai raisonnable.*
+  *vitesse ou precision: une petite hauteur de couche augmente fortement le temps. Pour un prototype, on cherche une précision suffisante et un délai raisonnable.*
 
 * **Ventilation et sécurité** — [Émissions et ventilation — MIT](https://academy.cba.mit.edu/classes/scanning_printing/emissions.pdf) · [Certification GREENGUARD — Prusa](https://blog.prusa3d.com/the-original-prusa-mk4-and-mk4s-are-ul-greenguard-certified_101657)  
   *Une imprimante chauffe des polymères : on ventile, on évite de rester inutilement près de la machine et on ne touche jamais la buse ni le plateau chaud.*
@@ -36,10 +33,10 @@ Une liste de ressources pour découvrir la fabrication additive, prendre des mes
 ## Choisir la matière et concevoir la pièce
 
 * **Guide des matériaux** — [Tableau des matériaux — Prusa](https://help.prusa3d.com/en/materials) · [Comparatif des propriétés — Simplify3D](https://www.simplify3d.com/support/materials-guide/properties-table/)  
-  *Le matériau se choisit à partir du besoin : température d’usage, rigidité, chocs, extérieur, souplesse et facilité d’impression.*
+  *comment choisir un materiaux: température d’usage, rigidité, chocs, extérieur, souplesse et facilité d’impression.*
 
 * **PLA, PETG et PHA** — [Guide filament Prusa](https://help.prusa3d.com/category/material-guide_220)  
-  *Pour débuter, le PLA est le plus simple. Le PETG résiste mieux à la chaleur et aux chocs mais demande plus de réglages. Le PHA ouvre la discussion sur les polymères biosourcés.*
+  *Pour débuter, le PLA est le plus simple. uniquement au fablab Le PETG résiste mieux à la chaleur et aux chocs mais demande plus de réglages. Le PHA ouvre la discussion sur les polymères biosourcés.*
 
 * **Filaments techniques et composites** — [Composites chargés métal](https://www.matterhackers.com/store/c/metallic-3d-printing-filament) · [Composites chargés bois](https://www.matterhackers.com/store/c/fillamentum/fillamentum-timberfill-series)  
   *Ajouter des fibres ou des particules change l’aspect et parfois les performances, mais use davantage la buse et rend l’impression plus exigeante.*
@@ -48,7 +45,7 @@ Une liste de ressources pour découvrir la fabrication additive, prendre des mes
   *Beaucoup de filaments absorbent l’eau et deviennent difficiles à imprimer. Demain, les machines pourront aussi identifier une matière et adapter leurs paramètres.*
 
 * **Règles de conception** — [Planche de règles — MIT](https://academy.cba.mit.edu/classes/scanning_printing/designrules.jpg)  
-  *Chaque couple machine–matière a ses limites. Une petite éprouvette permet de mesurer ce que l’imprimante produit réellement avant de concevoir le boîtier du VU-mètre.*
+  *Chaque couple machine–matière a ses limites.*
 
 * **Supports, surplombs et ponts** — [Objets articulés imprimés en place](https://n-e-r-v-o-u-s.com/projects/albums/kinematics-link/) · [Types de supports — Prusa](https://help.prusa3d.com/article/support-material_1698) · [Exemple de pont — MIT](https://academy.cba.mit.edu/classes/scanning_printing/Prusa/bridging.jpg)  
   *Un bon modèle limite les supports : moins de matière, moins de temps et de meilleures surfaces. Les ponts courts peuvent souvent être imprimés dans le vide.*
